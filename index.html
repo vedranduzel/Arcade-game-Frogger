@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="modal_background">
+        <div class="modal_body">
+            <h1 class="win">Game Over</h1>
+            <img id="princess" src="images/char-princess-girl.png" alt="princessimage">
+            <img class="smallhearts" src="images/heart.png" alt="heartimage">
+            <img class="middleheart" src="images/heart.png" alt="heartimage">
+            <img class="smallhearts" src="images/heart.png" alt="heartimage">
+            <img id="locked" src="images/char-boy.png" alt="boyimage">
+            <h2 class="winB">Better luck next time!</h2>
+            <h2>Press Spacebar to play again or click the button</h2>
+            <button type="button" class="playAgain" onclick=restarting()>Play again?</button>
+        </div>
+    </div>
+    <section>
+        <h2>Welcome to the Frogger</h2>
+        <p class="description">The evil girl captured your boy. Travel to the top to advance in level. Collect diamonds to score more points. Every level bugs are faster. At level 9 pick a key and save the boy.</p>
+        <p>Use keyboard to move:</p>
+        <div class="instructions">
+            <p class="updown">Up: &#8679;</p>
+            <p class="leftright">Left: &#8678;</p>
+            <p class="leftright">Right: &#8680;</p>
+            <p class="updown">Down: &#8681;</p>
+            <p>Press Spacebar to restart the game.</p>
+        </div>
+        <div class="data">
+            <span class="level">Level: 1</span>
+            <span class="score">Score: 0</span>
+        </div>
+    </section>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>

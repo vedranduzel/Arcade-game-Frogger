@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    background:url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+section {
+    color: white;
+    float: left;
+    font-family: Comic Sans MS;
+    width: 260px;
+    border: 5px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-color: black;
+    background-color: #046ff2;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.instructions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftright {
+    width: 50%;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.updown {
+   width: 100%;
+}
+
+.data {
+    display: flex;
+}
+
+span {
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 925px) {
+    section {
+      display: none;
+    }
+}
+
+.modal_background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal_body {
+    width: 300px;
+    position: relative;
+    background-color: #046ff2;
+    color: white;
+    margin: 100px auto;
+    border-radius: 20px;
+    font-family: Comic Sans MS;
+    text-shadow: 2px 2px black;
+    border-color: black;
+    border: 5px solid black;
+
+}
+
+.modal_background.hide {
+    display: none;
+}
+
+img {
+    height: 100px;
+}
+
+.smallhearts {
+    height: 30px;
+    margin-bottom: 70px;
+}
+
+.middleheart {
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.playAgain {
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 1.3em;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

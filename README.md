@@ -4,6 +4,7 @@
 
 - [Instructions](#instructions)
 - [Instalation](#instalation)
+- [About](#about)
 
 ## Instructions
 
@@ -20,7 +21,7 @@ You can try to reach more levels (I dare you to reach lvl 20).
 You don't need to install the game. Just unpack a file in an empty folder and double click index.html file.
 It's important not to change the order of files.
 
-##About
+## About
 
 I was provided with a starting code that included images, image loading functions and some canvas functions.
 I had to implement functionality using objects and constructor functions.

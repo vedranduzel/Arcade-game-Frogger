@@ -1,6 +1,6 @@
 # Classic Arcade Game Clone Project
 
-## Table of Contents
+## Table of Content
 
 - [Instructions](#instructions)
 - [Instalation](#instalation)
